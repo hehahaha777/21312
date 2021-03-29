@@ -56,4 +56,12 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_launcher_background" />
 
+    <TextView
+        android:id="@+id/txxv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="震动"
+        android:textSize="36sp" />
+
 </LinearLayout>
