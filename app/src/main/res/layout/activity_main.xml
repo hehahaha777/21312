@@ -43,6 +43,13 @@
         android:textSize="30sp"
         android:onClick="Add"/>
 
+    <Button
+        android:id="@+id/btnhappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="乐透"
+        android:textSize="36sp" />
+
     <ImageView
         android:id="@+id/img"
         android:layout_width="match_parent"

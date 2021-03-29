@@ -15,6 +15,15 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         setContentView(R.layout.activity_main)
         txv.setOnClickListener(this)
         img.setOnClickListener(this)
+
+        btnhappy.setOnClickListener(object:View.OnClickListener{
+            override fun onClick(v: View?) {
+                counter= (1..100).random()
+                txv.text = counter.toString()
+
+            }
+
+        })
     }
 
 
