@@ -76,7 +76,6 @@ class MainActivity : AppCompatActivity(),View.OnClickListener, View.OnTouchListe
                 vibrator.vibrate(VibrationEffect.createOneShot(5000, VibrationEffect.DEFAULT_AMPLITUDE))
             } else {
                 vibrator.vibrate(5000)
-
             }
 
         } else if (event?.action == MotionEvent.ACTION_UP) {
